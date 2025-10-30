@@ -24,13 +24,17 @@ const Hero = () => {
     }
   }, [currentIndex, content.tagline]);
 
+
+
   useEffect(() => {
     const skillTimer = setInterval(() => {
       setCurrentSkillIndex(prev => (prev + 1) % skills.length);
     }, 2000);
-
+  
     return () => clearInterval(skillTimer);
-  }, []);
+  }, [skills.length]); // ✅ fixed dependency
+  
+
 
   const scrollToProjects = () => {
     document.getElementById('projects').scrollIntoView({ 
