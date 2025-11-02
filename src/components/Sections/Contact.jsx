@@ -39,13 +39,13 @@ const Contact = () => {
   const socialLinks = [
     {
       name: "GitHub",
-      url: "https://github.com",
+      url: "github.com/Shivam-maurya-9374",
       icon: "🐙",
       username: "@shivam-maurya"
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com",
+      url: "linkedin.com/in/shivam-maurya-6b8b40293",
       icon: "💼",
       username: "shivam-maurya"
     },
