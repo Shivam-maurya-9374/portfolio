@@ -19,8 +19,8 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { name: "GitHub", url: "https://github.com", icon: "🐙" },
-    { name: "LinkedIn", url: "https://linkedin.com", icon: "💼" },
+    { name: "GitHub", url: "github.com/Shivam-maurya-9374", icon: "🐙" },
+    { name: "LinkedIn", url: "linkedin.com/in/shivam-maurya-6b8b40293", icon: "💼" },
     { name: "Twitter", url: "https://twitter.com", icon: "🐦" },
     { name: "Email", url: "mailto:hello@shivam.com", icon: "✉️" }
   ];
@@ -62,7 +62,7 @@ const Footer = () => {
             whileInView={{ opacity: 1 }}
             className="text-gray-400"
           >
-            © 2024 Shivam Maurya. {content[language].rights}
+            © 2025 Shivam Maurya. {content[language].rights}
           </motion.p>
           
           <motion.p
