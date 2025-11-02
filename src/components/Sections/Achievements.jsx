@@ -52,10 +52,10 @@ const Achievements = () => {
   ];
 
   const stats = [
-    { number: "50+", label: { en: "Projects Completed", hi: "पूर्ण प्रोजेक्ट्स" } },
+    { number: "10+", label: { en: "Projects Completed", hi: "पूर्ण प्रोजेक्ट्स" } },
     { number: "10K+", label: { en: "Lines of Code", hi: "कोड की लाइनें" } },
     { number: "99%", label: { en: "Client Satisfaction", hi: "ग्राहक संतुष्टि" } },
-    { number: "2+", label: { en: "Years Experience", hi: "वर्षों का अनुभव" } }
+    { number: "0", label: { en: "Years Experience", hi: "वर्षों का अनुभव" } }
   ];
 
   return (
